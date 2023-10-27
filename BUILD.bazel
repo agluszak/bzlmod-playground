@@ -1,0 +1,8 @@
+load("@rules_kotlin//kotlin:jvm.bzl", "kt_jvm_test")
+
+kt_jvm_test(
+    name = "test",
+    size = "small",
+    srcs = ["Test.kt"],
+    test_class = "Test",
+)
